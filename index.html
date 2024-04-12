@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">PortFolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Edwin A.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="back_image">
+      <div class="container_image">
+
+
+        <section_img id="profile">
+          <div class="section__pic-container">
+            <img src="./assets/stack.png" />
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Edwin A.</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/Edwin_A_CV.pdf')"
+              >
+                Download CV
+              </button>
+              <button class="btn btn-color-1" onclick="location.href='#contact'">
+                Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+               <img
+                 src="./assets/linkedin.png"
+                 alt="My LinkedIn profile"
+                 class="icon"
+                 onclick="location.href='https://www.linkedin.com/in/edwin-guzm%C3%A1n-918b69223/'"
+               />
+               <img
+                src="./assets/github.png"
+                alt="My Github profile"
+                 class="icon"
+                onclick="location.href='https://github.com/edwinguzmn'"
+              />
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+    </section_img>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+          <div class="section__text-container">
+            <div class="text-container-style">
+              <p>Software engineer with experience in mobiles  application development 
+                  in Android environment. Furthermore,  I possess skills in data 
+                  analysis, computer vision and initial experience in training
+                  artificial intelligence models. My interest in technology and learning
+                  It continually motivates me to look for opportunities to participate in 
+                  projects innovative and continue my professional development in the 
+                  field of computing and artificial intelligence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Front-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/icons/html_5_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/css_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/java_script_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/figma_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Back-end Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/icons/python_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/firebase_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/mongodb_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/my_sql_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/sql_lite_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL lite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">App Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/icons/java_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/kotlin_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/swift_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/icons/android_stdio_icon.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android std.</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="container_project_left">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title_proyect project-title">Source in:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/edwinguzmn/TestApp_RHapp'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1FH8ayVfFY0PAu2LtUd06opWQSv5ckSMm/view?usp=sharing'"
+                >
+                  DownLoad
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="section__text-container_proyect ">
+            <h3 class="section__text-proyect">SkillHub App.</h3>
+            <div class="text-container-style">
+              <p>SkillHub is a Human Resources mobile application for Android, which offers a 
+                  comprehensive experience for personnel management. Its features include a 
+                  section for administrators and employees, account verification, real-time chat, 
+                  and application statistics. With SkillHub, you improve recruiting efficiency, 
+                  facilitate communication between employers and candidates, and provide a 
+                  personalized experience for all users. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="section__text-container_right">
+            <h3 class="section__text-proyect">PetHub App.</h3>
+            <div class="text-container-style">
+              <p>PetHub is an Android mobile application that offers comprehensive pet 
+                  care. It includes information about care, account verification, 
+                  real-time chat, an event agenda, and a space to record and 
+                  manage pet health. With PetHub, users can access trusted 
+                  resources, connect with other pet owners, and ensure the 
+                  well-being of their furry companions conveniently and effectively.
+              </p>
+            </div>
+          </div>
+          <div class="container_project_right">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title_proyect project-title">Source in:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/edwinguzmn/TestApp_DogPet'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1i-s0BEebX_g-nUGf-1opcILmiaxSj9ro/view?usp=sharing'"
+                >
+                  DownLoad
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="container_project_left">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title_proyect project-title">Source in:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/edwinguzmn/SCPC'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://edwinguzmn.github.io/SCPC/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="section__text-container_proyect ">
+            <h3 class="section__text-proyect">SICPC Consultores</h3>
+            <div class="text-container-style">
+              <p>The "SCPC" website is a platform specialized in promoting civil protection 
+                  consulting services in the state of Nuevo León. Designed for companies, institutions
+                  and communities seeking to strengthen their security and prevention measures, this 
+                  website offers detailed information on services, regulations, previous projects 
+                  and contact for inquiries. With regional specialization, qualified professionals 
+                  and a safety-focused approach, the site is an essential resource to improve 
+                  emergency preparedness and response in the region.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="section__text-container_right">
+            <h3 class="section__text-proyect">EzWay Software.</h3>
+            <div class="text-container-style">
+              <p>The “EzWay” autonomous tolling system is an innovative technological solution 
+                  designed to automate and streamline the toll collection process on roads and highways. 
+                  Through the integration of advanced technologies such as computer vision and Python 
+                  programming, this system offers an efficient and accurate alternative to the traditional 
+                  manual collection method. It uses cameras to capture images of vehicles in real time, 
+                  which are processed to automatically detect, identify and classify vehicles, calculate 
+                  the corresponding toll rate and control the access barrier. This allows for complete 
+                  automation of the process, ensuring an improved user experience.
+              </p>
+            </div>
+          </div>
+          <div class="container_project_right">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-4.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title_proyect project-title">Source in:</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/edwinguzmn/Proyecto-VC-Peaje-Asistido'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1NKCN-ZtBDV8Og6PeFoU4RaPkl_T6xLpV/view?usp=sharing'"
+                >
+                  DownLoad
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://wa.me/528129425303">Tel. 8129425303</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:Edwin_Guzmn@hotmail.com">Edwin_Guzmn@hotmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Edwin Ariel. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
