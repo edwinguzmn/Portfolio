@@ -324,11 +324,11 @@ section {
 }
 
 .back_image{
-  background-color: yellow;
-  background-image: url("./assets/image_backg.PNG");
+  background-image: url(./assets/image_backg.png);
   background-size: cover;
-
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container_image{
